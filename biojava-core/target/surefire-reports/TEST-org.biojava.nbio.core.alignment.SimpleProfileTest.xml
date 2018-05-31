@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.biojava.nbio.core.alignment.SimpleProfileTest" time="1.973" tests="54" errors="0" skipped="1" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/kunwoopark/Desktop/biojava/biojava-core/target/test-classes:/Users/kunwoopark/Desktop/biojava/biojava-core/target/classes:/Users/kunwoopark/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/kunwoopark/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/kunwoopark/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/kunwoopark/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.6.2/log4j-slf4j-impl-2.6.2.jar:/Users/kunwoopark/.m2/repository/org/apache/logging/log4j/log4j-api/2.6.2/log4j-api-2.6.2.jar:/Users/kunwoopark/.m2/repository/org/apache/logging/log4j/log4j-core/2.6.2/log4j-core-2.6.2.jar:"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="KR"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/kunwoopark/Desktop/biojava/biojava-core/target/surefire/surefirebooter10104757532741624078.jar /Users/kunwoopark/Desktop/biojava/biojava-core/target/surefire 2018-05-31T19-05-35_534-jvmRun1 surefire2265203539222829463tmp surefire_91388813041848229817tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/kunwoopark/Desktop/biojava/biojava-core/target/test-classes:/Users/kunwoopark/Desktop/biojava/biojava-core/target/classes:/Users/kunwoopark/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/kunwoopark/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/kunwoopark/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/kunwoopark/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.6.2/log4j-slf4j-impl-2.6.2.jar:/Users/kunwoopark/.m2/repository/org/apache/logging/log4j/log4j-api/2.6.2/log4j-api-2.6.2.jar:/Users/kunwoopark/.m2/repository/org/apache/logging/log4j/log4j-core/2.6.2/log4j-core-2.6.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/kunwoopark"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-04-17"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/kunwoopark/Desktop/biojava/biojava-core"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/kunwoopark/Desktop/biojava/biojava-core/target/surefire/surefirebooter10104757532741624078.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="10.0.1+10"/>
+    <property name="user.name" value="kunwoopark"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.13.4"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.3"/>
+    <property name="localRepository" value="/Users/kunwoopark/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/5m/ytj_ds557ld9p5hfm_pmvtdh0000gn/T/"/>
+    <property name="java.version" value="10.0.1"/>
+    <property name="user.dir" value="/Users/kunwoopark/Desktop/biojava/biojava-core"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/kunwoopark/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="10.0.1+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="54.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="testGetIndexOf" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="1.518"/>
+  <testcase name="testGetCompoundAtSIntOutOfBounds" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.003"/>
+  <testcase name="testGetAlignedSequenceInt" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.003"/>
+  <testcase name="testToStringInt" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.011"/>
+  <testcase name="testToString" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.001"/>
+  <testcase name="testToStringFormatted" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.04"/>
+  <testcase name="testSimpleProfile" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.004"/>
+  <testcase name="testGetSize" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.001"/>
+  <testcase name="testGetAlignedSequenceS" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.005"/>
+  <testcase name="testGetAlignedSequences" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.001"/>
+  <testcase name="testGetOriginalSequences" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.001"/>
+  <testcase name="testGetSubProfile" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testGetCompoundAtSInt" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.001"/>
+  <testcase name="testGetAlignedSequencesSArray" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.001"/>
+  <testcase name="testGetIndicesAt" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.005"/>
+  <testcase name="testGetAlignedSequenceIntOutOfBounds" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.007"/>
+  <testcase name="testGetAlignedSequencesIntArray" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.004"/>
+  <testcase name="testGetCompoundAtIntInt" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.002"/>
+  <testcase name="testGetCompoundAtIntIntOutOfBounds" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.002"/>
+  <testcase name="testGetLength" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0"/>
+  <testcase name="testGetCompoundsAtOutOfBounds" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.002"/>
+  <testcase name="testIsCircular" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.002"/>
+  <testcase name="testGetCompoundsAtOutOfBounds2" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.003"/>
+  <testcase name="testGetCompoundsAtOutOfBounds3" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.001"/>
+  <testcase name="testGetCompoundsAtOutOfBounds4" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.001"/>
+  <testcase name="testGetCompoundsAtOutOfBounds5" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.001"/>
+  <testcase name="testGetCompoundsAtOutOfBounds6" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.001"/>
+  <testcase name="testGetIndicesAtOutOfBounds2" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.001"/>
+  <testcase name="testGetIndicesAtOutOfBounds3" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.002"/>
+  <testcase name="testGetIndicesAtOutOfBounds4" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0"/>
+  <testcase name="testGetIndicesAtOutOfBounds5" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0"/>
+  <testcase name="testGetIndicesAtOutOfBounds6" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.001"/>
+  <testcase name="testGetAlignedSequenceIntOutOfBounds2" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.001"/>
+  <testcase name="testGetAlignedSequenceIntOutOfBounds3" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0"/>
+  <testcase name="testGetAlignedSequenceIntOutOfBounds4" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0"/>
+  <testcase name="testGetAlignedSequenceIntOutOfBounds5" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0"/>
+  <testcase name="testGetAlignedSequenceIntOutOfBounds6" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.001"/>
+  <testcase name="testGetCompoundSet" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.001"/>
+  <testcase name="testGetCompoundsAt" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0"/>
+  <testcase name="testGetCompoundAtSIntOutOfBounds2" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0"/>
+  <testcase name="testGetCompoundAtSIntOutOfBounds3" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0"/>
+  <testcase name="testGetCompoundAtSIntOutOfBounds4" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.001"/>
+  <testcase name="testGetCompoundAtSIntOutOfBounds5" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.001"/>
+  <testcase name="testIterator" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.001"/>
+  <testcase name="testGetLastIndexOf" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.001"/>
+  <testcase name="testGetCompoundAtIntIntOutOfBounds2" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.001"/>
+  <testcase name="testGetCompoundAtIntIntOutOfBounds3" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0"/>
+  <testcase name="testGetCompoundAtIntIntOutOfBounds4" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0"/>
+  <testcase name="testGetCompoundAtIntIntOutOfBounds5" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.001"/>
+  <testcase name="testGetCompoundAtIntIntOutOfBounds6" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.001"/>
+  <testcase name="testGetCompoundAtIntIntOutOfBounds7" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.019"/>
+  <testcase name="testGetCompoundAtIntIntOutOfBounds8" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.001"/>
+  <testcase name="testGetCompoundAtIntIntOutOfBounds9" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0.002"/>
+  <testcase name="testGetIndicesAtOutOfBounds" classname="org.biojava.nbio.core.alignment.SimpleProfileTest" time="0"/>
+</testsuite>
