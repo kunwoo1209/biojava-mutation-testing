@@ -34,6 +34,7 @@ import org.biojava.nbio.core.sequence.location.SimpleLocation;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
+import org.biojava.nbio.core.util.Equals;
 
 import java.util.Arrays;
 
@@ -352,6 +353,12 @@ public class SimpleAlignedSequenceTest {
 		assertEquals(global.toString(), "-AR-ND-");
 		assertEquals(local.toString(), "EQ--G-HI");
 		assertEquals(local2.toString(), "RND");
-	}
+	}	
 
+	@Test
+	public void testEquals() {
+		assertTrue(go.equals(go));
+		assertFalse(go.equals(lo));
+		assertTrue(lo.equals(lo));
+	}
 }

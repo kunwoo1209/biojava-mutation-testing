@@ -30,6 +30,8 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import org.biojava.nbio.core.search.io.Hsp;
+import java.lang.reflect.*;
 
 /**
  * @author Paolo Pavan
@@ -96,6 +98,7 @@ public class HspTest {
 		Hsp instance;
 		int expResult;
 		int result;
+		int hash = 5;
 
 		instance = new BlastHspBuilder()
 				.setHspNum(1)
@@ -117,6 +120,10 @@ public class HspTest {
 
 		expResult = hspImpl.hashCode();
 		result = instance.hashCode();
+		hash = 67 * hash + (instance.getHspQseq() != null ? instance.getHspQseq().hashCode() : 0);
+		hash = 67 * hash + (instance.getHspHseq() != null ? instance.getHspHseq().hashCode() : 0);
+		hash = 67 * hash + (instance.getHspIdentityString() != null ? instance.getHspIdentityString().hashCode() : 0);
+		assertEquals(hash, result);
 		assertEquals(expResult, result);
 
 		instance = new BlastHspBuilder()
@@ -206,6 +213,16 @@ public class HspTest {
 		System.out.println("getAlignment");
 
 		SequencePair<DNASequence, NucleotideCompound> aln = hspImpl.getAlignment();
+		Class c = Hsp.class;
+		Method[] method = c.getDeclaredMethods();
+		for (int i = 0; i < method.length; i++) {
+			if (method[i].toString().contains("Hsp.getSequence(")) {
+				method[i].setAccessible(true);
+				Object r = method[i].invoke(null);
+				System.out.println(method[i].toString());
+			}
+		}
+		//assertNull(r);
 
 		StringBuilder s = new StringBuilder();
 		s.append(hspImpl.getHspQseq());

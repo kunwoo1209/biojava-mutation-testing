@@ -408,7 +408,19 @@
 					<!-- <consoleOutput>true</consoleOutput> -->
 				</configuration>
 			</plugin>
-
+			<plugin>
+	        	<groupId>org.pitest</groupId>
+	        	<artifactId>pitest-maven</artifactId>
+	        	<version>1.4.0</version>
+	        	<configuration>
+	        		<targetClasses>
+	        			<param>org.biojava.nbio.core.alignment</param>
+	        		</targetClasses>
+	        		<targetTests>
+	        			<param>org.biojava.nbio.core.alignment</param>
+	        		</targetTests>
+	        	</configuration>
+	      	</plugin>
 			<!-- code coverage plugin -->
 			<!-- coveralls/cobertura seems outdated and has many problems, I think we need to use a different plugin. Commenting out - JD 2018-03-16 -->
 			<!--<plugin>-->

@@ -34,8 +34,20 @@
                         <exclude>demo/**</exclude>
                     </excludes>
                 </configuration>
-            </plugin>		
-		
+            </plugin>
+            <plugin>
+		        <groupId>org.pitest</groupId>
+		        <artifactId>pitest-maven</artifactId>
+		        <version>1.4.0</version>
+		        <configuration>
+	        		<targetClasses>
+	        			<param>org.biojava.nbio.core.search.io.*</param>
+	        		</targetClasses>
+	        		<targetTests>
+	        			<param>org.biojava.nbio.core.search.io.*</param>
+	        		</targetTests>
+	        	</configuration>	
+		     </plugin>
 		</plugins>
 	</build>
 	<dependencies>
